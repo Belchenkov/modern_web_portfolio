@@ -1,0 +1,25 @@
+{
+  "name": "modern-web-portfolio",
+  "version": "1.0.0",
+  "description": "A modern web-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belchenkov/modern_web_portfolio.git"
+  },
+  "author": "Aleksey Belchenkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Belchenkov/modern_web_portfolio/issues"
+  },
+  "homepage": "https://github.com/Belchenkov/modern_web_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0"
+  }
+}
